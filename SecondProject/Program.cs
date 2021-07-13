@@ -8,8 +8,8 @@ namespace SecondProject
         static void Main(string[] args)
         {
             double x = 10.35784;
-            int y = 22;
-            string z = "Igor";
+            int age = 22;
+            string name = "Igor";
             char w = 'M';
             Console.Write("hello fucking world!"); //sem 'enter'
             Console.WriteLine("Good Morning Vietnammm!");
@@ -24,7 +24,7 @@ namespace SecondProject
             Console.WriteLine("the amount of change is " + x + " bolsonaros");
             Console.WriteLine("the amount of change is " + x.ToString("F2") + " bolsonaros");
             Console.WriteLine();
-            Console.WriteLine("the patient " + z + " is " + y + " years old and ur gender is: " + w);
+            Console.WriteLine("the patient " + name + " is " + age + " years old and ur gender is: " + w);
             Console.ReadLine();
         }
     }
